@@ -8,14 +8,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="reactive-web" />
+        <module name="mvc-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mvc-web" target="17" />
       <module name="reactive-web" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mvc-web" options="-parameters" />
       <module name="reactive-web" options="-parameters" />
     </option>
   </component>

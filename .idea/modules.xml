@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/controller-demo/controller-demo.iml" filepath="$PROJECT_DIR$/controller-demo/controller-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvc-web/mvc-web.iml" filepath="$PROJECT_DIR$/mvc-web/mvc-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/reactive-web/reactive-web.iml" filepath="$PROJECT_DIR$/reactive-web/reactive-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-lab.iml" filepath="$PROJECT_DIR$/.idea/spring-lab.iml" />
     </modules>
